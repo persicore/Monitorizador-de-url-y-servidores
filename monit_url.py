@@ -3,15 +3,8 @@ import requests
 
 
 websites = [
-    'https://www.panama-jack.com',
-    'https://www2.panama-jack.com',
-    'https://api2.panama-jack.com',
-    'https://api3.panama-jack.com',
-    'https://api.panama-jack.com',
-    'https://test.panama-jack.com',
-    'https://vendor.panamajack.es',
-    'https://vendortest.panamajack.es',
-    #'https://test2.panama-jack.com',
+   
+    #'https://youtube.com',
 ]
 
 async def check_website_status(url):
