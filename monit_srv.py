@@ -5,23 +5,8 @@ import socket
 
 # Define the servers to monitor
 servers = [
-    {'ip': 'srvdc1', 'port':"Prueba" },
-    {'ip': 'srvveeam', 'port': ""},
-    {'ip': 'srvbkp', 'port': ""},
-    {'ip': 'serversap', 'port': ""},
-    {'ip': 'srvdbs', 'port': ""},
-    {'ip': 'sapdsr', 'port': ""},
-    {'ip': 'tssapp-new', 'port': ""},
-    {'ip': 'srvprint', 'port': ""},
-    {'ip': 'imascds', 'port': ""},
-    {'ip': 'srvweb01', 'port': ""},
-    {'ip': 'srvweb02', 'port': ""},
-    {'ip': 'srvweb03', 'port': ""},
-    {'ip': 'webtest', 'port': ""},
-    {'ip': 'servidorups', 'port': ""},
-    {'ip': '192.168.23.151', 'port': "Forti-Barcelona"},
-    {'ip': '192.168.13.151', 'port': "Forti-Sanse"},
-    {'ip': '192.168.211.001', 'port': "Forti-central"},
+    {'ip': '192.168...', 'port':"Prueba" },
+   
 ]
 
 async def check_server_status(server):
